@@ -127,17 +127,17 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .container {
-        max-width: 768px;
+       width: 100%;
         margin: 0 auto;
         padding: 0 20px;
-}
+    }
 }
 
 @media screen and (max-width: 480px){
     .container {
-        max-width: 480px;
+        width: 100%;
         margin: 0 auto;
         
     }
@@ -145,6 +145,7 @@ img {
     *{
         padding: 0 0;
     }
+
     .row{
         display: flex;
         flex-direction: column;
